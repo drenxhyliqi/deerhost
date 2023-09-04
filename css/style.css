@@ -1,0 +1,418 @@
+/*===========COSTUM CSS===========*/
+:root{
+    --FIRST-COLOR: #120851;
+    --SECOND-COLOR: #4c57d6;
+    --THIRD-COLOR: #f2f2f2;
+    --FIRST-DARKER:#0b052f;
+    --FIRST-MID:#120851;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*--==========TOP NAVBAR==========*/
+
+/*==========MAIN NAVBAR==========*/
+nav{
+    background : var(--FIRST-COLOR);
+}
+.navbar-nav a{
+    color: var(--THIRD-COLOR);
+    margin-right: 1rem;
+}
+.navbar-nav a:hover{
+    color: var(--SECOND-COLOR) !important;
+}
+.container-fluid{
+    margin: 0 14%;
+}
+.active{
+    color: var(--SECOND-COLOR) !important;
+}
+.top-nav{
+    padding:.3em .9em ;
+}
+.nav-btm a{
+    color: #000 !important;
+}
+.top a{
+    font-size: .8rem !important;
+    cursor: pointer;
+}
+.navbar-toggler,
+    .navbar-toggler:focus {
+      box-shadow: none !important;
+      border: none !important;
+      outline:none!important ; 
+    }
+    .bi.bi-list{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .sign{
+        border: 1px solid #fff;
+        border-radius: 2rem;
+        padding: .5rem 2rem !important;
+    }
+    .sign:hover{
+        background-color: var(--THIRD-COLOR);
+        color: #000 !important;
+    }
+/*==========MAIN SECTION=========*/
+#main{
+    background-image: url(/img/main/hero-1.jpg);
+   background-position: bottom;
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes floatPattern {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  .main,
+  .discount,
+  .text
+   {
+    animation: floatPattern 2s ease-in-out infinite;
+  }
+.row{
+    margin: auto 10%;
+}
+.img-fluid{
+    margin-bottom: 25% !important;
+}
+.btn{
+    background-color: var(--SECOND-COLOR);
+    color: #fff;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+/*===========DOMAIN REGISTRE=========*/
+#domain{
+    margin:  10% auto;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+}
+.price span{
+    color: var(--SECOND-COLOR);
+}
+.form-control{
+    border-color: var(--FIRST-MID) !important;
+    width: 700px !important;
+    border-width: .1rem;
+}
+.wave{
+    margin-left: 45%;
+}
+.btn.search{
+    background-color: var(--SECOND-COLOR) !important;
+}
+.btn.search:hover{
+    color: #f2f2f2;
+    opacity: .8;
+}
+/*==========HOSTING TYPE==========*/
+#hosting{
+margin-top: 10%;  
+  padding: 10% 5% !important;
+    background-color: rgba(189, 197, 197, 0.147) ;
+}
+.subtitle{
+    color: var(--SECOND-COLOR);
+}
+.hostbtn{
+    text-decoration: none;
+    color: var(--FIRST-COLOR);
+    opacity: .8;
+}
+.hostbtn:hover{
+    opacity: 1;
+}
+.card{
+    box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+}
+.card:hover{
+    -webkit-box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+	box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+}
+/*-==========PLAN CARDS==========*/ 
+#plan{
+    margin: 12% auto;
+}
+.pricebox{
+    background-color: var(--FIRST-COLOR);
+    overflow: visible;
+    width: 299px;
+    border-radius: .6rem;
+    margin-left: -.60rem;
+}
+.plancard{
+    border: .3px solid #44444447;
+    border-radius: .8rem;
+    box-shadow: 1px 1px 1px #888;
+}
+.plancard:hover{
+    -webkit-box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+	box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+}   
+.plancard:hover .pricebox{
+    background: #4c57d6;
+}
+.plancard:hover .planbtn{
+    background: #4c57d6 !important;
+}
+.planbtn{
+background-color: var(--FIRST-MID) !important;
+    color: #f9f9f9 !important;
+}
+.btnborder{
+    border-radius: 2rem !important;
+    padding: .1rem;
+}
+.month{
+    background-color: var(--FIRST-MID) !important;
+    font-weight: 500;
+}
+.year{
+    background-color: transparent !important;
+    border: none;
+    color: #fff !important;
+    font-weight: 500;
+    opacity: .2;
+}
+.year:hover{
+    background-color:var(--FIRST-COLOR) !important ;
+    color: #fff !important;
+    opacity: 1;
+    transition: .2s ease-in;
+}
+
+/*==========ACHIVMENTS + FLOATING CARD==========*/
+#achivments{
+    background-image: url(/img/achievement-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 18%;
+}
+.bi-person,
+.bi-pencil-square,
+.bi-database,
+.bi-gear,
+.bi-handbag,
+.bi-laptop
+{
+    font-size: 3rem;
+    color: var(--SECOND-COLOR);
+}
+.content2{
+padding-top: 120px;
+padding-bottom: 320px;
+}
+.box {
+    position: absolute;
+    top:60%;
+    background-color: rgba(255, 255, 255, 1); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 0rem;
+    box-shadow: 0px 8px 30px rgba(18, 8, 81, 0.2);
+    margin: 0 10%;
+  }
+
+  .box p{
+    color: var(--SECOND-COLOR);
+  }
+
+/*==========DISCOUNT SECTION==========*/
+#discount{
+   margin-top: 10%;
+}
+.bi-check{
+    font-size: 1.4rem;
+    color: var(--SECOND-COLOR);
+}
+/*-==========FOOTER==========*/
+#footer{
+    background-color: var(--FIRST-DARKER);
+    margin-top: 10%;
+    padding-top: 8%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 8%;
+    background-image: url(/img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#footer li{
+    font-size: .85rem;
+    font-weight: 100;
+    
+}
+.info{
+    margin-top: 10%;
+}
+.footericons{
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+    }
+    .footericons i{
+        font-size: 1.2rem ;
+        margin-right: .5rem;
+    }
+.btn{
+    background-color:var(--FIRST-COLOR) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============QUERIES============*/
+@media screen and (max-width:767px) {
+    .logo{
+        width: 170px;
+    }
+    h3{
+        font-size: 1.4rem !important;
+    }
+    h2,h6{
+        font-size: 1rem;
+    }
+    .top-nav{
+        display: none;
+    }
+    .container-fluid{
+        margin: auto 2%;
+    }
+    .row{
+        text-align: center;
+    }
+    .paragraph{
+        margin-top: 10%;
+    }
+    .sign{
+        border: 1px solid var(--SECOND-COLOR);
+        padding: 5px !important;
+        margin-left: 5%;
+        margin-top: 5%;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .second{
+        font-size: .8rem;
+    }
+    .price p{
+        padding: .5rem .8rem;
+        font-size: .9rem !important;
+    }
+    .wave{
+        margin-left: 39%;
+    }
+    .btn.search{
+        width: 80px;
+        font-size: .6rem;
+        font-weight: bold;
+    }
+    #hosting{
+        margin: 10% auto;
+        padding: 0 !important;
+    }
+    .hostxt{
+        font-size: 1rem;
+        padding-top: 10%;
+    }
+    .pricebox{
+        overflow: hidden;
+        margin-left: 0;
+        width: 100%;
+    }
+    .plan{
+        justify-content: center !important;
+    }
+    #achivments{
+        background-size: cover;
+        background-position: center;
+        height: 135vh;
+    }
+    .box{
+       display: none;
+    }
+    .footericons{
+        margin-left: 0;
+        margin-bottom: 2.5rem;
+        }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .pricebox{
+        overflow: hidden;
+        margin-left: 0;
+        width: 100%;
+    }
+    .top-nav{
+        display: none;
+    }
+    .sign{
+        width: 85%;
+        margin-left: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    #achivments{
+        height: 65vh;
+    }
+    .content2{
+        padding-top: 40%;
+    }
+    .box{
+        display: none;
+    }
+    #footer{
+        font-size: .5rem !important;
+    }
+    .footericons{
+        margin-bottom: 2rem;
+    }
+    .information img{
+        width: 150px;
+    }
+    .map{
+        width: 300px;
+    }
+   
+}
+@media screen and (min-width: 992px) and (max-width: 1500px){
+    .navbar-nav a{
+        margin: 0rem ;
+    }
+    .sign{
+        width: 20%;
+        padding: 5px 14px !important;
+        font-size: 1rem;
+    }
+    .pricebox{
+        overflow: hidden;
+        margin-left: 0;
+        width: 100%;
+    }
+    .map{
+        width: 475px;
+    }
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --FIRST-COLOR: #120851;
+    --SECOND-COLOR: #4c57d6;
+    --THIRD-COLOR: #f2f2f2;
+    --FIRST-DARKER:#0b052f;
+    --FIRST-MID:#120851;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background-image: url(/img/main/hero-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: grid;
+ place-items: center;
+ margin-top: 5%;
+}
+@keyframes floatPattern {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+  }
+h2{
+font-size: 2rem;
+}
+form{
+  margin-top: 2rem;
+  margin-bottom: .7rem;
+}
+label{
+  color:#f2f2f2 ;
+}
+input {
+  font-size: 12px; /* larger font size for input */
+  padding: 5px 10px; /* increase padding for larger input size */
+  margin-top: .2rem;
+  margin-bottom: .5rem;
+  width: 400px; /* Adjust the width to make the input field wider */
+  height: 35px; /* Adjust the height if needed */
+}
+.icons
+.bi-instagram,
+.bi-facebook,
+.bi-linkedin,
+.bi-twitter,
+.bi-github{
+    margin-left:1.5rem !important; 
+    font-size: 2rem;
+    cursor: pointer;
+    opacity: .5;
+}
+.icons .bi-instagram:hover,
+.icons .bi-facebook:hover,
+.icons .bi-linkedin:hover,
+.icons .bi-twitter:hover,
+.icons .bi-github:hover {
+   opacity: 1;
+}
+
+.icons{
+    animation: floatPattern 2s ease-in-out infinite;
+}
+.forgot{
+  color: #f2f2f2;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+  font-weight: bolder;
+  opacity: .7;
+}
+.forgot:hover,
+.another:hover,
+.signup:hover{
+  opacity: 1;
+}
+.btn_login{
+    border: .2px solid var(--THIRD-COLOR);
+text-decoration: none;
+background-color: var(--FIRST-COLOR);
+width: 10rem;
+height: auto;
+color: white;
+text-align: center;
+font-size: 1rem;
+padding: 4px 20px;
+border-radius: 2rem;
+margin-bottom: 1rem;
+width: 19.8rem;
+}
+.another{
+  color: #f2f2f2;
+  font-size: .8rem;
+  margin-right: 14.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  opacity: .7;
+}
+
+.signup{
+  color: var(--THIRD-COLOR);
+  font-size: .8rem;
+  margin-right: .8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  margin-left: 14.8rem;
+  margin-top: .8rem;
+  opacity: .7;
+}
+.btn_login:hover{
+    background-color: var(--FIRST-DARKER);
+}
+@media screen and (max-width:456px){
+  .container{
+    margin-top: -20% !important;
+  }
+  h2{
+    font-size: 1.5rem;
+    margin-top: 30%;
+  }
+  input{
+    width: 288px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .icons{
+    margin-left: -1rem;
+  }
+ .forgot{
+  margin-right: 0;
+  margin-bottom: .8rem;
+ }
+ .btn_login{
+  width: 290px;
+ }
+ .another{
+  margin-right: 0;
+ }
+.signup{
+  margin-left: 1rem;
+}
+}
