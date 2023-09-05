@@ -1,25 +1,25 @@
-.container-lg{
-    margin: 5% 5%;
+.container-lg {
+  margin: 5% 5%;
 }
-.about_icons i{
-    padding: 0 .6rem;
+.about_icons i {
+  padding: 0 0.6rem;
 }
-@media screen and (max-width:576px) {
-    .about_text p{
-      font-size: .7rem;
-    }
-    .about_text h2{
-        font-size: 2rem;
-    }
-    .about_icons_text span{
-        font-size: .7rem !important;
-        font-weight: normal !important;
-        margin-left: .7rem;
-    }
-    .container-lg{
-        margin: 7% auto;
-    }
-    .nav-btm{
-        display: none;
-    }
+@media screen and (max-width: 576px) {
+  .about_text p {
+    font-size: 0.7rem;
+  }
+  .about_text h2 {
+    font-size: 2rem;
+  }
+  .about_icons_text span {
+    font-size: 0.7rem !important;
+    font-weight: normal !important;
+    margin-left: 0.7rem;
+  }
+  .container-lg {
+    margin: 7% auto;
+  }
+  .nav-btm {
+    display: none;
+  }
 }

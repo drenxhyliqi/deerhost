@@ -1,4 +1,8 @@
-
-#plan{
-    margin: 2% auto;
+#plan {
+  margin: 2% auto;
+}
+@media screen and (max-width: 576px) {
+  .nav-btm {
+    display: none;
+  }
 }

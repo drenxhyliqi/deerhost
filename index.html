@@ -1,420 +1,570 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEERHOST | Home</title>
-        <!--ICON-->
-        <link rel="icon" type="image/png" href="img/ico.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-</head>
-<body>
-<!--==========TOP NAVBAR==========--> 
-<nav class="navbar navbar-expand-lg border-secondary border-bottom top-nav">
-  <div class="container-fluid top">
-    <div class="collapse navbar-collapse justify-content-start align-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-link" href="#"><a class="bi bi-envelope-fill text-decoration-none" href="contact.html">&nbsp;support@gmail.com</a></a>
-        <a class="nav-link" href="#"><a class="bi bi-telephone-fill text-decoration-none"href="contact.html">&nbsp; +1 234 567 89</a></a>
-      </div>
+    <!--ICON-->
+    <link rel="icon" type="image/png" href="img/ico.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!--==========LOADER==========-->
+    <div class="loading">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-    <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-link" href="#"><a class="bi bi-chat-dots-fill text-decoration-none" href="contact.html"> LIVE CHAT</a></a>
-        <a class="nav-link" href="#"><a class="bi bi-people-fill text-decoration-none" href="login.html"> Login/Register</a></a>
-      </div>
-    </div>
-  </div>
-</nav>
-<!--==========MAIN NAVBAR==========--> 
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="/img/logo.png" class="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-list"></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end align-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-          <a class="nav-link" href="about.html">ABOUT</a>
-          <a class="nav-link" href="host.html">HOSTING</a>
-          <a class="nav-link" href="login.html">LOGIN</a>
-          <a class="nav-link" href="contact.html">CONTACT</a>
-          <a class="nav-link sign text-center" href="sign.html">SIGN UP</a>
+    <!--==========TOP NAVBAR==========-->
+    <nav class="navbar navbar-expand-lg border-secondary border-bottom top-nav">
+      <div class="container-fluid top">
+        <div
+          class="collapse navbar-collapse justify-content-start align-center"
+          id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#"
+              ><a
+                class="bi bi-envelope-fill text-decoration-none"
+                href="contact.html"
+                >&nbsp;support@gmail.com</a
+              ></a
+            >
+            <a class="nav-link" href="#"
+              ><a
+                class="bi bi-telephone-fill text-decoration-none"
+                href="contact.html"
+                >&nbsp; +1 234 567 89</a
+              ></a
+            >
+          </div>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#"
+              ><a
+                class="bi bi-chat-dots-fill text-decoration-none"
+                href="contact.html">
+                LIVE CHAT</a
+              ></a
+            >
+            <a class="nav-link" href="#"
+              ><a
+                class="bi bi-people-fill text-decoration-none"
+                href="login.html">
+                Login/Register</a
+              ></a
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-<!--==========MAIN SECTION=========--> 
+    </nav>
+    <!--==========MAIN NAVBAR==========-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/img/logo.png" class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <label class="hamburger">
+            <input type="checkbox" />
+            <svg viewBox="0 0 32 32">
+              <path
+                class="line line-top-bottom"
+                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+              <path class="line" d="M7 16 27 16"></path>
+            </svg>
+          </label>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link" href="about.html">ABOUT</a>
+            <a class="nav-link" href="host.html">HOSTING</a>
+            <a class="nav-link" href="login.html">LOGIN</a>
+            <a class="nav-link" href="contact.html">CONTACT</a>
+            <a class="nav-link sign text-center" href="sign.html">SIGN UP</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--==========MAIN SECTION=========-->
 
-<section id="main">
-  <div class="container-lg">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-md-6 text-white content">
-         <p class="paragraph">Starting At Only $2.8/month</p>
-          <h2>WELCOME TO THE BEST HOSTING COMPANY</h2>
-          <a href="#" class="btn fw-semibold mt-2 border border-white">GET STARTED NOW</a>
-      </div>
-      <div class="col-md-6 mt-1">
-        <img src="/img/main/hero-right.png" class="img-fluid mt-5 main" width="450px" alt="">
-      </div>
-    </div>
-  </div>
- 
-</section>
-<!--===========DOMAIN REGISTRE=========--> 
-<section id="domain">
-  <div class="container-lg">
-    <h3 class="justify-content-center d-flex text-center "> REGISTER YOUR DOMAIN NOW!</h3>
-        <img src="/img/line.png" alt="" class="wave mb-4">
-    <div class="row">
-      <div class="col-md-12">
-      
-        <form class="d-flex justify-content-center mb-4" role="search">
-          <input class="form-control me-2 rounded-pill" type="search" placeholder="ex: cloudhost" aria-label="Search">
-          <button class="btn search" type="submit">SEARCH</button>
-        </form>
-        <div class="price">
-          <p class="fw-bolder fs-5"><span href="#" class="fw-semibold">.com</span> $1.95</p>
-          <p class="fw-bolder fs-5"><span href="#" class="fw-semibold">.net</span> $1.95</p>
-          <p class="fw-bolder fs-5"><span href="#" class="fw-semibold">.org</span> $1.95</p>
-          <p class="fw-bolder fs-5"><span href="#"
-            class="fw-semibold">.us</span> $1.95</p>
-          <p class="fw-bolder fs-5"><span href="#" class="fw-semibold">.in</span> $1.95</p>
-        </div>
-        <p class="d-flex justify-content-center text-muted align-items-center second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis neque deserunt ratione eaque alias autem.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!--==========HOSTING TYPE==========--> 
-<section id="hosting">
-  <div class="container">
-    <h3 class="justify-content-center d-flex fw-bold hostxt text-center"> CHOOSE THE RIGHT HOSTING SOLUTION</h3>
-    <img src="/img/line.png" alt="" class="wave mb-4">
-    <div class="row">
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">Shared Hosting</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
+    <section id="main">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-white content">
+            <p class="paragraph">Starting At Only $2.8/month</p>
+            <h2>WELCOME TO THE BEST HOSTING COMPANY</h2>
+            <a href="#" class="btn fw-semibold mt-2 border border-white"
+              >GET STARTED NOW</a
+            >
+          </div>
+          <div class="col-md-6 mt-1">
+            <img
+              src="/img/main/hero-right.png"
+              class="img-fluid mt-5 main"
+              width="450px"
+              alt="" />
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">Wordpress Hosting</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
+    </section>
+    <!--===========DOMAIN REGISTRE=========-->
+    <section id="domain">
+      <div class="container-lg">
+        <h3 class="justify-content-center d-flex text-center">
+          REGISTER YOUR DOMAIN NOW!
+        </h3>
+        <img src="/img/line.png" alt="" class="wave mb-4" />
+        <div class="row">
+          <div class="col-md-12">
+            <form class="d-flex justify-content-center mb-4" role="search">
+              <input
+                class="form-control me-2 rounded-pill"
+                type="search"
+                placeholder="ex: cloudhost"
+                aria-label="Search" />
+              <button class="btn search" type="submit">SEARCH</button>
+            </form>
+            <div class="price">
+              <p class="fw-bolder fs-5">
+                <span href="#" class="fw-semibold">.com</span> $1.95
+              </p>
+              <p class="fw-bolder fs-5">
+                <span href="#" class="fw-semibold">.net</span> $1.95
+              </p>
+              <p class="fw-bolder fs-5">
+                <span href="#" class="fw-semibold">.org</span> $1.95
+              </p>
+              <p class="fw-bolder fs-5">
+                <span href="#" class="fw-semibold">.us</span> $1.95
+              </p>
+              <p class="fw-bolder fs-5">
+                <span href="#" class="fw-semibold">.in</span> $1.95
+              </p>
+            </div>
+            <p
+              class="d-flex justify-content-center text-muted align-items-center second">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem veritatis neque deserunt ratione eaque alias autem.
+            </p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">Dedicated Hosting</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
+    </section>
+    <!--==========HOSTING TYPE==========-->
+    <section id="hosting">
+      <div class="container">
+        <h3 class="justify-content-center d-flex fw-bold hostxt text-center">
+          CHOOSE THE RIGHT HOSTING SOLUTION
+        </h3>
+        <img src="/img/line.png" alt="" class="wave mb-4" />
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">Shared Hosting</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">Wordpress Hosting</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">Dedicated Hosting</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">SSL Certificate</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">Web Hosting</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4">
+            <div class="card p-2">
+              <div class="card-body">
+                <h4 class="card-title">Cloud Server</h4>
+                <h6 class="subtitle">Starts At $1.84</h6>
+                <p class="card-text text-muted">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="hostbtn">See More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">SSL Certificate</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">Web Hosting</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 col-md-4 ">
-        <div class="card p-2">
-          <div class="card-body">
-            <h4 class="card-title">Cloud Server</h4>
-            <h6 class="subtitle"> Starts At $1.84</h6>
-            <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="hostbtn">See More</a>
-          </div>
-        </div>
-      </div>
-     
-    </div>
-  </div>
-</section>
+    </section>
 
-
-<!--==========PLAN CARDS==========--> 
-<section id="plan">
-  <div class="row mb-5">
-    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12">
-      <h3 class="justify-content-center d-flex fw-bold hostxt text-center"> CHOOSE YOUR PLAN</h3>
-    </div>
-    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12 mx-auto justify-content-end d-flex plan">
-      <div class="border border-primary btnborder">
-        <div class="btn btn-primary month">
-          MONTHLY
+    <!--==========PLAN CARDS==========-->
+    <section id="plan">
+      <div class="row mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-12">
+          <h3 class="justify-content-center d-flex fw-bold hostxt text-center">
+            CHOOSE YOUR PLAN
+          </h3>
         </div>
-        <div class="btn btn-primary year">
-          &nbsp; YEARLY &nbsp;
+        <div
+          class="col-sm-12 col-md-12 col-lg-6 col-xl-12 mx-auto justify-content-end d-flex plan">
+          <div class="border border-primary btnborder">
+            <input id="checkbox_toggle" type="checkbox" class="check" />
+            <div class="checkbox">
+              <label class="slide" for="checkbox_toggle">
+                <label class="toggle" for="checkbox_toggle"></label>
+                <label class="text" for="checkbox_toggle">YEAR</label>
+                <label class="text" for="checkbox_toggle">MONTH</label>
+              </label>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
- <!--  <h3 class="justify-content-center d-flex fw-bold hostxt"> CHOOSE THE RIGHT HOSTING SOLUTION</h3>
+      <!--  <h3 class="justify-content-center d-flex fw-bold hostxt"> CHOOSE THE RIGHT HOSTING SOLUTION</h3>
     <img src="/img/line.png" alt="" class="wave mb-4"> -->
-  <div class="row">
-    <div class="col-md-6 col-lg-3">
-      <div class="plancard align-items-center mb-5">
-          <h3 class="text-center py-3 text-black">Started</h3>
-          <div class="pricebox p-3 my-2">
-              <h3 class="text-center text-white">$15.99 <span class="fs-5 text-white fst-normal fw-lighter">/ month</span></h3>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="plancard align-items-center mb-5">
+            <h3 class="text-center py-3 text-black">Started</h3>
+            <div class="pricebox p-3 my-2">
+              <h3 class="text-center text-white">
+                $15.99
+                <span class="fs-5 text-white fst-normal fw-lighter"
+                  >/ year</span
+                >
+              </h3>
+            </div>
+            <ul class="list-unstyled text-center text-muted lh-lg">
+              <li>2.5 GB web space</li>
+              <li>Free site building tools</li>
+              <li>Free domain registar</li>
+              <li>24/7 Support</li>
+              <li>Free Marketing Tool</li>
+              <li>99,9% Services Uptime</li>
+              <li>30 Day Money back</li>
+            </ul>
+            <a
+              href="#"
+              class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4"
+              >CHOOSE PLAN</a
+            >
           </div>
-          <ul class="list-unstyled text-center text-muted lh-lg">
-            <li>2.5 GB web space</li>
-            <li>Free site building tools</li>
-            <li>Free domain registar</li>
-            <li>24/7 Support</li>
-            <li>Free Marketing Tool</li>
-            <li> 99,9% Services Uptime</li>
-            <li>30 Day Money back</li>
-          </ul>
-          <a href="#" class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4">CHOOSE PLAN</a>
-          
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="plancard align-items-center mb-5">
-          <h3 class="text-center py-3 text-black">Business</h3>
-          <div class="pricebox p-3 my-2">
-              <h3 class="text-center text-white">$25.99 <span class="fs-5 text-white fst-normal fw-lighter">/ month</span></h3>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="plancard align-items-center mb-5">
+            <h3 class="text-center py-3 text-black">Business</h3>
+            <div class="pricebox p-3 my-2">
+              <h3 class="text-center text-white">
+                $25.99
+                <span class="fs-5 text-white fst-normal fw-lighter"
+                  >/ year</span
+                >
+              </h3>
+            </div>
+            <ul class="list-unstyled text-center text-muted lh-lg">
+              <li>90 GB web space</li>
+              <li>Free site building tools</li>
+              <li>Free domain registar</li>
+              <li>24/7 Support</li>
+              <li>Free Marketing Tool</li>
+              <li>99,9% Services Uptime</li>
+              <li>90 Day Money back</li>
+            </ul>
+            <a
+              href="#"
+              class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4"
+              >CHOOSE PLAN</a
+            >
           </div>
-          <ul class="list-unstyled text-center text-muted lh-lg">
-            <li>90 GB web space</li>
-            <li>Free site building tools</li>
-            <li>Free domain registar</li>
-            <li>24/7 Support</li>
-            <li>Free Marketing Tool</li>
-            <li> 99,9% Services Uptime</li>
-            <li>90 Day Money back</li>
-          </ul>
-          <a href="#" class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4">CHOOSE PLAN</a>
-          
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="plancard align-items-center mb-5">
-          <h3 class="text-center py-3 text-black">Premium</h3>
-          <div class="pricebox p-3 my-2">
-              <h3 class="text-center text-white">$35.99 <span class="fs-5 text-white fst-normal fw-lighter">/ month</span></h3>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="plancard align-items-center mb-5">
+            <h3 class="text-center py-3 text-black">Premium</h3>
+            <div class="pricebox p-3 my-2">
+              <h3 class="text-center text-white">
+                $35.99
+                <span class="fs-5 text-white fst-normal fw-lighter"
+                  >/ year</span
+                >
+              </h3>
+            </div>
+            <ul class="list-unstyled text-center text-muted lh-lg">
+              <li>150 GB web space</li>
+              <li>Free site building tools</li>
+              <li>Free domain registar</li>
+              <li>24/7 Support</li>
+              <li>Free Marketing Tool</li>
+              <li>99,9% Services Uptime</li>
+              <li>120 Day Money back</li>
+            </ul>
+            <a
+              href="#"
+              class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4"
+              >CHOOSE PLAN</a
+            >
           </div>
-          <ul class="list-unstyled text-center text-muted lh-lg">
-            <li>150 GB web space</li>
-            <li>Free site building tools</li>
-            <li>Free domain registar</li>
-            <li>24/7 Support</li>
-            <li>Free Marketing Tool</li>
-            <li> 99,9% Services Uptime</li>
-            <li>120 Day Money back</li>
-          </ul>
-          <a href="#" class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4">CHOOSE PLAN</a>
-          
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="plancard align-items-center mb-5">
-          <h3 class="text-center py-3 text-black">Dedicated</h3>
-          <div class="pricebox p-3 my-2">
-              <h3 class="text-center text-white">$45.99 <span class="fs-5 text-white fst-normal fw-lighter">/ month</span></h3>
-          </div>
-          <ul class="list-unstyled text-center text-muted lh-lg">
-            <li>Unlimited web space</li>
-            <li>Free site building tools</li>
-            <li>Free domain registar</li>
-            <li>24/7 Support</li>
-            <li>Free Marketing Tool</li>
-            <li> 99,9% Services Uptime</li>
-            <li>Up to 6 Months Money back</li>
-          </ul>
-          <a href="#" class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4">CHOOSE PLAN</a>
-          
-      </div>
-    </div>
-  </div>
-</section>
-<!--==========ACHIVMENTS + FLOATING CARD==========--> 
-<section id="achivments">
-  <div class="row d-flex text-white content2 icons">
-    <div class="col-md-3 text-center">
-      <i class="bi bi-person"></i>
-      <h5 class="text-center fs-3">24068</h5>
-      <p>CLIENTS</p>
-    </div>
-    <div class="col-md-3 text-center">
-      <i class="bi bi-pencil-square"></i>
-      <h5 class="text-center fs-3">26321</h5>
-      <p>DOMAINS</p>
-    </div>
-    <div class="col-md-3 text-center">
-      <i class="bi bi-database"></i>
-      <h5 class="text-center fs-3">2328</h5>
-      <p>SERVER</p>
-    </div>
-    <div class="col-md-3 text-center">
-      <i class="bi bi-gear"></i>
-      <h5 class="text-center fs-3">2978</h5>
-      <p>INSTALLS</p>
-    </div>
-    <hr>
-  </div>
-  <div class="box">
-    <h3 class="justify-content-center d-flex ">HOW TO BUILD YOUR WEBSITE ONLINE TODAY?</h3>
-        <img src="/img/line.png" alt="" class="wave mb-4">
-    <div class="row justify-content-evenly">
-      <div class="col-md-4">
-        <div class="box_content text-center">
-          <i class="bi bi-laptop"></i>
-          <p>CREATE YOUR OWN WEBSITE WITH OUT</p>
-          <h2 class="fw-bold">WEB BUILDER</h2>
-          <p class="fs-small text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae blanditiis dolorum asperiores sit.</p>
-          <div class="btn btn-primary btn-md">
-            READ MORE
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="plancard align-items-center mb-5">
+            <h3 class="text-center py-3 text-black">Dedicated</h3>
+            <div class="pricebox p-3 my-2">
+              <h3 class="text-center text-white">
+                $45.99
+                <span class="fs-5 text-white fst-normal fw-lighter"
+                  >/ year</span
+                >
+              </h3>
+            </div>
+            <ul class="list-unstyled text-center text-muted lh-lg">
+              <li>Unlimited web space</li>
+              <li>Free site building tools</li>
+              <li>Free domain registar</li>
+              <li>24/7 Support</li>
+              <li>Free Marketing Tool</li>
+              <li>99,9% Services Uptime</li>
+              <li>Up to 6 Months Money back</li>
+            </ul>
+            <a
+              href="#"
+              class="btn planbtn text-black fw-semibold mx-4 my-2 d-block mb-4"
+              >CHOOSE PLAN</a
+            >
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="box_content text-center">
-          <i class="bi bi-handbag"></i>
-          <p>EASY CREATE, MANAGE & SELL</p>
-          <h2 class="fw-bold">ONLINE STORE</h2>
-          <p class="fs-sm text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae blanditiis dolorum asperiores sit.</p>
-          <div class="btn btn-primary btn-md">
-            READ MORE
+    </section>
+    <!--==========ACHIVMENTS + FLOATING CARD==========-->
+    <section id="achivments">
+      <div class="row d-flex text-white content2 icons">
+        <div class="col-md-3 text-center">
+          <i class="bi bi-person"></i>
+          <h5 class="text-center fs-3">24068</h5>
+          <p>CLIENTS</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="bi bi-pencil-square"></i>
+          <h5 class="text-center fs-3">26321</h5>
+          <p>DOMAINS</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="bi bi-database"></i>
+          <h5 class="text-center fs-3">2328</h5>
+          <p>SERVER</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <i class="bi bi-gear"></i>
+          <h5 class="text-center fs-3">2978</h5>
+          <p>INSTALLS</p>
+        </div>
+        <hr />
+      </div>
+      <div class="box">
+        <h3 class="justify-content-center d-flex">
+          HOW TO BUILD YOUR WEBSITE ONLINE TODAY?
+        </h3>
+        <img src="/img/line.png" alt="" class="wave mb-4" />
+        <div class="row justify-content-evenly">
+          <div class="col-md-4">
+            <div class="box_content text-center">
+              <i class="bi bi-laptop"></i>
+              <p>CREATE YOUR OWN WEBSITE WITH OUT</p>
+              <h2 class="fw-bold">WEB BUILDER</h2>
+              <p class="fs-small text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae blanditiis dolorum asperiores sit.
+              </p>
+              <div class="btn btn-primary btn-md">READ MORE</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box_content text-center">
+              <i class="bi bi-handbag"></i>
+              <p>EASY CREATE, MANAGE & SELL</p>
+              <h2 class="fw-bold">ONLINE STORE</h2>
+              <p class="fs-sm text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae blanditiis dolorum asperiores sit.
+              </p>
+              <div class="btn btn-primary btn-md">READ MORE</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!--==========DISCOUNT SECTION==========-->
-<section id="discount">
-  <div class="container">
-    <div class="row d-flex justify-content-evenly align-items-center mx-auto">
-      <div class="col-md-12 col-lg-6">
-        <img src="/img/choose-plan.png" class="img-fluid discount" width="640px">
-      </div>
-      <div class="col-md-8 col-lg-4">
-        <div class="text">
-          <h4 class="text-left fs-2 mb-4">up to 70% discount with free domain name registration included!</h4>
-          <ul class="list-unstyled text-left fs-5    align-items-center">
-            <li><i class="bi bi-check"></i> FREE Domain Name</li>
-            <li><i class="bi bi-check"></i> FREE Email Address</li>
-            <li><i class="bi bi-check"></i>Plently of disk space</li>
-            <li><i class="bi bi-check"></i> FREE Website Bullder  </li>
-            <li><i class="bi bi-check"></i> FREE Marketing Tools</li>
-            <li><i class="bi bi-check mb-4"></i>FREE WordPress Install</li>
-          </ul>
-          <div class="btn btn-md btn-primary d-flex align-items-center justify-content-center">GET STARTED NOW</div>
+    </section>
+    <!--==========DISCOUNT SECTION==========-->
+    <section id="discount">
+      <div class="container">
+        <div
+          class="row d-flex justify-content-evenly align-items-center mx-auto">
+          <div class="col-md-12 col-lg-6">
+            <img
+              src="/img/choose-plan.png"
+              class="img-fluid discount"
+              width="640px" />
+          </div>
+          <div class="col-md-8 col-lg-4">
+            <div class="text">
+              <h4 class="text-left fs-2 mb-4">
+                up to 70% discount with free domain name registration included!
+              </h4>
+              <ul class="list-unstyled text-left fs-5 align-items-center">
+                <li><i class="bi bi-check"></i> FREE Domain Name</li>
+                <li><i class="bi bi-check"></i> FREE Email Address</li>
+                <li><i class="bi bi-check"></i>Plently of disk space</li>
+                <li><i class="bi bi-check"></i> FREE Website Bullder</li>
+                <li><i class="bi bi-check"></i> FREE Marketing Tools</li>
+                <li><i class="bi bi-check mb-4"></i>FREE WordPress Install</li>
+              </ul>
+              <div
+                class="btn btn-md btn-primary d-flex align-items-center justify-content-center">
+                GET STARTED NOW
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!--==========FOOTER==========--> 
-<section id="footer">
-  <div class="row text-white">
-    <div class="col-md-6">
-      <h2>Need Help? Call Us</h2>
-      <h6>+1 175 946 2316  096</h6>
-    </div>
-    <div class="col-md-6">
-      <h4>Join Now And Have Free Month Of Deluxe Hosting</h4>
-      <div class="btn btn-md btn-primary">
-        LOG IN
+    </section>
+    <!--==========FOOTER==========-->
+    <section id="footer">
+      <div class="row text-white">
+        <div class="col-md-6">
+          <h2>Need Help? Call Us</h2>
+          <h6>+1 175 946 2316 096</h6>
+        </div>
+        <div class="col-md-6">
+          <h4>Join Now And Have Free Month Of Deluxe Hosting</h4>
+          <div class="btn btn-md btn-primary">LOG IN</div>
+          <div class="btn btn-md btn-primary">SIGN UP</div>
+        </div>
       </div>
-      <div class="btn btn-md btn-primary">
-        SIGN UP
-      </div>
-    </div>
-  </div>
-  <div class="row text-white info">
-    <div class="col-sm-6 col-md-6 col-lg-3">
-      <div class="information">
-        <img src="img/logo.png" alt="">
-        <br>
-        <div class="footericons align-items-center">
-          <i class="bi bi-instagram"></i>
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-linkedin"></i>
-      </div>
-      
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-3">
-      <div class="information">
-        <h3>COMPANY</h3>
-        <ul class="list-unstyled lh-lg">
-          <li>Company</li>
-          <li>About Us</li>
-          <li>Press & Media</li>
-          <li>News/Blogs</li>
-          <li>Careers</li>
-        </ul>
-      </div>
-    </div>
-    <div class=" col-sm-6 col-md-6 lh-lg col-lg-3">
-      <div class="information">
-         <h3>HOSTING</h3>
-      <ul class="list-unstyled">
-        <li>Web Hosting</li>
-        <li>Reseller Hosting</li>
-        <li>VPS Hosting</li>
-        <li>Dedicated Servers</li>
-        <li>Cloud Hosting</li>
-      </ul></div>
-     
-      </div>
+      <div class="row text-white info">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="information">
+            <img src="img/logo.png" alt="" />
+            <br />
+            <div class="footericons align-items-center">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="information">
+            <h3>COMPANY</h3>
+            <ul class="list-unstyled lh-lg">
+              <li>Company</li>
+              <li>About Us</li>
+              <li>Press & Media</li>
+              <li>News/Blogs</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+        </div>
         <div class="col-sm-6 col-md-6 lh-lg col-lg-3">
-      <div class="information">
-        <h3>CONTACT US</h3>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-geo-alt"></i> Street Los Angeles,</li>
-          <li><i class="bi bi-globe-americas"></i> ZZ-96110 USA</li>
-          <li><i class="bi bi-telephone"></i> 125-711-811 | 125-668-886</li>
-          <li><i class="bi bi-envelope"></i> Support.hosting@gmail.com</li>
-          <li><i class="bi bi-globe2"></i> drenxhyliqi.netlify.app</li>
-        </ul>
+          <div class="information">
+            <h3>HOSTING</h3>
+            <ul class="list-unstyled">
+              <li>Web Hosting</li>
+              <li>Reseller Hosting</li>
+              <li>VPS Hosting</li>
+              <li>Dedicated Servers</li>
+              <li>Cloud Hosting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 lh-lg col-lg-3">
+          <div class="information">
+            <h3>CONTACT US</h3>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-geo-alt"></i> Street Los Angeles,</li>
+              <li><i class="bi bi-globe-americas"></i> ZZ-96110 USA</li>
+              <li><i class="bi bi-telephone"></i> 125-711-811 | 125-668-886</li>
+              <li><i class="bi bi-envelope"></i> Support.hosting@gmail.com</li>
+              <li><i class="bi bi-globe2"></i> drenxhyliqi.netlify.app</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center text-secondary">
+          © 2023 Website Design By Colorlib
+        </p>
       </div>
-    </div>
-    <hr>
-    <p class="text-center text-secondary"> © 2023 Website Design By Colorlib</p>
-  <a href="//www.linkedin.com/in/dren-xhyliqi-b41225273/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BbmJ%2BRjLFT0eSlO8hDBpOlA%3D%3D"" class="text-center text-secondary text-decoration-none">© Website Built by D.X</a>
-    </div>
-  
-  </div>
-</section>
-
-<!--============JS=============-->
-<script src="js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
+    </section>
+    <!--============JS=============-->
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
